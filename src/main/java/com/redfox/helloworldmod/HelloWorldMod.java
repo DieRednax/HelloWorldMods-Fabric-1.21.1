@@ -1,6 +1,7 @@
 package com.redfox.helloworldmod;
 
 import com.redfox.helloworldmod.block.ModBlocks;
+import com.redfox.helloworldmod.item.ModItemGroups;
 import com.redfox.helloworldmod.item.ModItems;
 import net.fabricmc.api.ModInitializer;
 
@@ -13,6 +14,8 @@ public class HelloWorldMod implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
+		ModItemGroups.registerItemGroups();
+
 		ModItems.registerModItems();
 		ModBlocks.registerModBlocks();
 	}

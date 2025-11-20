@@ -42,9 +42,9 @@ public class ModBlocks {
     public static void registerModBlocks() {
         HelloWorldMod.LOGGER.info("Registering mod blocks for " + HelloWorldMod.MOD_ID);
 
-        ItemGroupEvents.modifyEntriesEvent(ItemGroups.BUILDING_BLOCKS).register(entries -> {
-            entries.add(PINK_GARNET_BLOCK);
-            entries.add(RAW_PINK_GARNET_BLOCK);
-        });
+//        ItemGroupEvents.modifyEntriesEvent(ItemGroups.BUILDING_BLOCKS).register(entries -> {
+//            entries.add(PINK_GARNET_BLOCK);
+//            entries.add(RAW_PINK_GARNET_BLOCK);
+//        });
     }
 }

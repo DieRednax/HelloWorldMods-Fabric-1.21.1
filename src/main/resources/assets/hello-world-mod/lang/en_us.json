@@ -1,4 +1,7 @@
 {
+  "itemgroup.hello-world-mod.pink_garnet_items": "Pink Garnet Items",
+  "itemgroup.hello-world-mod.pink_garnet_blocks": "Pink Garnet Blocks",
+
   "item.hello-world-mod.pink_garnet": "Pink Garnet",
   "item.hello-world-mod.raw_pink_garnet": "Raw Pink Garnet",
 

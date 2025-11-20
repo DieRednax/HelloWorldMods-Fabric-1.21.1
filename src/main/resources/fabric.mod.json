@@ -9,7 +9,7 @@
 	],
 	"contact": {
 		"homepage": "xt.delange@gmail.com",
-		"sources": "https://github.com/FabricMC/fabric-example-mod"
+		"sources": "https://github.com/DieRednax/HelloWorldMods-Fabric-1.21.1"
 	},
 	"license": "MIT",
 	"icon": "assets/hello-world-mod/icon.png",

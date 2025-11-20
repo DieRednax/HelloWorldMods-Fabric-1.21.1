@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "hello-world-mod:block/pink_garnet_block"
+    }
+  }
+}

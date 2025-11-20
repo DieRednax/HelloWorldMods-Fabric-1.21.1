@@ -1,4 +1,7 @@
 {
   "item.hello-world-mod.pink_garnet": "Pink Garnet",
-  "item.hello-world-mod.raw_pink_garnet": "Raw Pink Garnet"
+  "item.hello-world-mod.raw_pink_garnet": "Raw Pink Garnet",
+
+  "block.hello-world-mod.pink_garnet_block": "Block of Pink Garnet",
+  "block.hello-world-mod.raw_pink_garnet_block": "Block of Raw Pink Garnet"
 }

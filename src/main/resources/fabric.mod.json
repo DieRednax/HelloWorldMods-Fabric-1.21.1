@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "hello-world-mod",
+	"version": "${version}",
+	"name": "Hello World Mod",
+	"description": "Hello World for minecraft modding",
+	"authors": [
+		"RedFox Studios"
+	],
+	"contact": {
+		"homepage": "xt.delange@gmail.com",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "MIT",
+	"icon": "assets/hello-world-mod/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.redfox.helloworldmod.HelloWorldMod"
+		],
+		"fabric-datagen": [
+			"com.redfox.helloworldmod.HelloWorldModDataGenerator"
+		],
+		"client": [
+			"com.redfox.helloworldmod.HelloWorldModClient"
+		]
+	},
+	"mixins": [
+		"hello-world-mod.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.17.3",
+		"minecraft": "~1.21.1",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
